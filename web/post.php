@@ -7,4 +7,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($name !== '') {
         $_SESSION['username'] = $name;    }
 }
-header('Location: index.php');
+header('Location: ../index.php');
